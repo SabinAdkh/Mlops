@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mlops"
+version = "0.1.0"
+description = "\"Mlops for machine learning\""
+authors = ["Sabin Adhikari <48882205+SabinAdkh@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-poroject = true
+prefer-active-python = true
